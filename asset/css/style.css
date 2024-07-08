@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    width: 80%;
+    min-height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    color: bisque;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#input{
+    width: 300px;
+    height: 35px;
+    border: none;
+    padding: 5px 10px;
+} 
+
+.btn-group{
+    margin-top: 20px;
+}
+
+.btn-group button{
+    padding: 10px 20px;
+    background-color: bisque;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-group button:hover{
+    color: black;
+    background-color: gray;
+}
